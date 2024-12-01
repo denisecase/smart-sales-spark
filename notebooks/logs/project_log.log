@@ -1,1 +1,305 @@
 2024-12-01 16:05:31.129 | INFO     | utils.logger:<module>:36 - Logging to file: logs\project_log.log
+2024-12-01 16:05:34.103 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:05:36.716 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:05:36.719 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:05:36.719 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:05:36.862 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:05:36.862 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:05:37.162 | INFO     | scripts.step2_transform:calculate_sales_count:28 - Starting transformation: calculating sales count by product.
+2024-12-01 16:05:37.212 | INFO     | scripts.step2_transform:calculate_sales_count:38 - Transformation completed successfully.
+2024-12-01 16:05:37.880 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:05:37.880 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:05:37.880 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:05:38.214 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv.
+2024-12-01 16:05:38.214 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.parquet.
+2024-12-01 16:05:38.230 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:05:38.262 | INFO     | scripts.step4_visualize:visualize_sales_count:32 - Loading data from CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv
+2024-12-01 16:05:38.278 | INFO     | scripts.step4_visualize:visualize_sales_count:46 - Creating bar plot for sales count by product.
+2024-12-01 16:05:38.402 | INFO     | scripts.step4_visualize:visualize_sales_count:68 - Visualization saved to: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count_visualization.png
+2024-12-01 16:07:43.349 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:07:43.430 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:07:43.447 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:07:43.447 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:07:43.547 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:07:43.547 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:07:43.665 | INFO     | scripts.step2_transform:calculate_sales_count:28 - Starting transformation: calculating sales count by product.
+2024-12-01 16:07:43.695 | INFO     | scripts.step2_transform:calculate_sales_count:38 - Transformation completed successfully.
+2024-12-01 16:07:43.849 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:07:43.849 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:07:43.849 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:07:44.005 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv.
+2024-12-01 16:07:44.007 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.parquet.
+2024-12-01 16:07:44.009 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:07:44.032 | INFO     | scripts.step4_visualize:visualize_sales_count:32 - Loading data from CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv
+2024-12-01 16:07:44.046 | INFO     | scripts.step4_visualize:visualize_sales_count:46 - Creating bar plot for sales count by product.
+2024-12-01 16:07:44.181 | INFO     | scripts.step4_visualize:visualize_sales_count:68 - Visualization saved to: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count_visualization.png
+2024-12-01 16:21:13.529 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:21:13.630 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:21:13.631 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:23:58.146 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:23:58.215 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:23:58.231 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:23:58.232 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:23:58.298 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:23:58.298 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:23:58.383 | INFO     | scripts.step2_transform:calculate_sales_count:28 - Starting transformation: calculating sales count by product.
+2024-12-01 16:23:58.412 | INFO     | scripts.step2_transform:calculate_sales_count:38 - Transformation completed successfully.
+2024-12-01 16:23:58.551 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:23:58.551 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:23:58.551 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:23:58.665 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv.
+2024-12-01 16:23:58.665 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.parquet.
+2024-12-01 16:23:58.665 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:23:58.699 | INFO     | scripts.step4_visualize:visualize_sales_count:32 - Loading data from CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv
+2024-12-01 16:23:58.699 | INFO     | scripts.step4_visualize:visualize_sales_count:46 - Creating bar plot for sales count by product.
+2024-12-01 16:23:58.820 | INFO     | scripts.step4_visualize:visualize_sales_count:68 - Visualization saved to: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count_visualization.png
+2024-12-01 16:23:58.947 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:23:59.017 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:23:59.017 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:23:59.017 | INFO     | scripts.step2_transform:cube_sales_by_date:49 - Cubing sales data by Year, Month, and DayOfWeek.
+2024-12-01 16:34:52.750 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:34:52.830 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:34:52.832 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:34:52.832 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:34:52.899 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:34:52.899 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:34:52.992 | INFO     | scripts.step2_transform:calculate_sales_count:28 - Starting transformation: calculating sales count by product.
+2024-12-01 16:34:53.007 | INFO     | scripts.step2_transform:calculate_sales_count:38 - Transformation completed successfully.
+2024-12-01 16:34:53.161 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:34:53.163 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:34:53.164 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:34:53.264 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv.
+2024-12-01 16:34:53.265 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.parquet.
+2024-12-01 16:34:53.268 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:34:53.316 | INFO     | scripts.step4_visualize:visualize_sales_count:32 - Loading data from CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv
+2024-12-01 16:34:53.320 | INFO     | scripts.step4_visualize:visualize_sales_count:46 - Creating bar plot for sales count by product.
+2024-12-01 16:34:53.415 | INFO     | scripts.step4_visualize:visualize_sales_count:68 - Visualization saved to: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count_visualization.png
+2024-12-01 16:34:53.534 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:34:53.616 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:34:53.617 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:34:53.617 | INFO     | scripts.step2_transform:cube_sales_by_date:49 - Cubing sales data by Year, Month, and DayOfWeek.
+2024-12-01 16:36:13.450 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:36:13.514 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:36:13.514 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:36:13.514 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:36:13.579 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:36:13.580 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:36:13.676 | INFO     | scripts.step2_transform:calculate_sales_count:28 - Starting transformation: calculating sales count by product.
+2024-12-01 16:36:13.697 | INFO     | scripts.step2_transform:calculate_sales_count:38 - Transformation completed successfully.
+2024-12-01 16:36:13.814 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:36:13.814 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:36:13.814 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:36:13.913 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv.
+2024-12-01 16:36:13.913 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.parquet.
+2024-12-01 16:36:13.913 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:36:13.949 | INFO     | scripts.step4_visualize:visualize_sales_count:32 - Loading data from CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv
+2024-12-01 16:36:13.949 | INFO     | scripts.step4_visualize:visualize_sales_count:46 - Creating bar plot for sales count by product.
+2024-12-01 16:36:14.063 | INFO     | scripts.step4_visualize:visualize_sales_count:68 - Visualization saved to: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count_visualization.png
+2024-12-01 16:36:14.180 | INFO     | scripts.step2_transform:cube_sales_by_date:49 - Cubing sales data by Year, Month, and DayOfWeek.
+2024-12-01 16:38:15.432 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:38:15.497 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:38:15.497 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:38:15.497 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:38:15.566 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:38:15.566 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:38:15.648 | INFO     | scripts.step2_transform:calculate_sales_count:28 - Starting transformation: calculating sales count by product.
+2024-12-01 16:38:15.664 | INFO     | scripts.step2_transform:calculate_sales_count:38 - Transformation completed successfully.
+2024-12-01 16:38:15.780 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:38:15.780 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:38:15.780 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:38:15.880 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv.
+2024-12-01 16:38:15.880 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.parquet.
+2024-12-01 16:38:15.880 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:38:15.924 | INFO     | scripts.step4_visualize:visualize_sales_count:32 - Loading data from CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv
+2024-12-01 16:38:15.927 | INFO     | scripts.step4_visualize:visualize_sales_count:46 - Creating bar plot for sales count by product.
+2024-12-01 16:38:16.028 | INFO     | scripts.step4_visualize:visualize_sales_count:68 - Visualization saved to: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count_visualization.png
+2024-12-01 16:38:16.157 | INFO     | scripts.step2_transform:cube_sales_by_date:49 - Cubing sales data by Year, Month, and DayOfWeek.
+2024-12-01 16:38:16.163 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:38:16.163 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:38:16.163 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:38:16.316 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales.csv.
+2024-12-01 16:38:16.320 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales.parquet.
+2024-12-01 16:38:16.320 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:38:16.320 | INFO     | scripts.step4_visualize:visualize_cubed_sales:81 - Reading cubed sales data from c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales.csv.
+2024-12-01 16:41:40.814 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:41:40.897 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:41:40.897 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:41:40.897 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:41:40.950 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:41:40.963 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:41:41.047 | INFO     | scripts.step2_transform:calculate_sales_count:28 - Starting transformation: calculating sales count by product.
+2024-12-01 16:41:41.064 | INFO     | scripts.step2_transform:calculate_sales_count:38 - Transformation completed successfully.
+2024-12-01 16:41:41.180 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:41:41.180 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:41:41.180 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:41:41.280 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv.
+2024-12-01 16:41:41.280 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.parquet.
+2024-12-01 16:41:41.280 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:41:41.327 | INFO     | scripts.step4_visualize:visualize_sales_count:32 - Loading data from CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv
+2024-12-01 16:41:41.332 | INFO     | scripts.step4_visualize:visualize_sales_count:46 - Creating bar plot for sales count by product.
+2024-12-01 16:41:41.432 | INFO     | scripts.step4_visualize:visualize_sales_count:68 - Visualization saved to: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count_visualization.png
+2024-12-01 16:41:41.550 | INFO     | scripts.step2_transform:cube_sales_by_date:49 - Cubing sales data by Year, Month, and DayOfWeek.
+2024-12-01 16:41:41.578 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:41:41.579 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:41:41.580 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:41:41.678 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales.csv.
+2024-12-01 16:41:41.678 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales.parquet.
+2024-12-01 16:41:41.678 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:41:41.678 | INFO     | scripts.step4_visualize:visualize_cubed_sales:81 - Reading cubed sales data from c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales.csv.
+2024-12-01 16:45:00.589 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:45:00.654 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:45:00.654 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:45:00.654 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:45:00.724 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:45:00.724 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:45:00.823 | INFO     | scripts.step2_transform:calculate_sales_count:28 - Starting transformation: calculating sales count by product.
+2024-12-01 16:45:00.839 | INFO     | scripts.step2_transform:calculate_sales_count:38 - Transformation completed successfully.
+2024-12-01 16:45:00.954 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:45:00.954 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:45:00.954 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:45:01.070 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv.
+2024-12-01 16:45:01.070 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.parquet.
+2024-12-01 16:45:01.070 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:45:01.106 | INFO     | scripts.step4_visualize:visualize_sales_count:32 - Loading data from CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv
+2024-12-01 16:45:01.106 | INFO     | scripts.step4_visualize:visualize_sales_count:46 - Creating bar plot for sales count by product.
+2024-12-01 16:45:01.220 | INFO     | scripts.step4_visualize:visualize_sales_count:68 - Visualization saved to: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count_visualization.png
+2024-12-01 16:45:01.350 | INFO     | scripts.step2_transform:cube_sales_by_date_and_store:73 - Cubing sales data by Year, Month, DayOfWeek, and StoreID.
+2024-12-01 16:45:01.367 | INFO     | scripts.step2_transform:cube_sales_by_date_and_store:85 - Cubing completed successfully.
+2024-12-01 16:45:01.368 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:45:01.369 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:45:01.370 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:45:01.554 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales.csv.
+2024-12-01 16:45:01.554 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales.parquet.
+2024-12-01 16:45:01.554 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:45:01.554 | INFO     | scripts.step4_visualize:visualize_cubed_sales:81 - Reading cubed sales data from c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales.csv.
+2024-12-01 16:46:27.973 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:46:28.041 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:46:28.041 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:46:28.041 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:46:28.109 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:46:28.109 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:46:28.190 | INFO     | scripts.step2_transform:calculate_sales_count:28 - Starting transformation: calculating sales count by product.
+2024-12-01 16:46:28.207 | INFO     | scripts.step2_transform:calculate_sales_count:38 - Transformation completed successfully.
+2024-12-01 16:46:28.323 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:46:28.323 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:46:28.323 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:46:28.423 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv.
+2024-12-01 16:46:28.423 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.parquet.
+2024-12-01 16:46:28.423 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:46:28.459 | INFO     | scripts.step4_visualize:visualize_sales_count:32 - Loading data from CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv
+2024-12-01 16:46:28.459 | INFO     | scripts.step4_visualize:visualize_sales_count:46 - Creating bar plot for sales count by product.
+2024-12-01 16:46:28.579 | INFO     | scripts.step4_visualize:visualize_sales_count:68 - Visualization saved to: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count_visualization.png
+2024-12-01 16:46:28.693 | INFO     | scripts.step2_transform:cube_sales_by_date_and_store:73 - Cubing sales data by Year, Month, DayOfWeek, and StoreID.
+2024-12-01 16:46:28.716 | INFO     | scripts.step2_transform:cube_sales_by_date_and_store:85 - Cubing completed successfully.
+2024-12-01 16:46:28.717 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:46:28.717 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:46:28.718 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:46:28.806 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales.csv.
+2024-12-01 16:46:28.806 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales.parquet.
+2024-12-01 16:46:28.806 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:46:28.806 | INFO     | scripts.step4_visualize:visualize_cubed_sales:78 - Reading cubed sales data from c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales.csv.
+2024-12-01 16:49:01.359 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:49:01.436 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:49:01.436 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:49:01.439 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:49:01.493 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:49:01.493 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:49:01.588 | INFO     | scripts.step2_transform:calculate_sales_count:28 - Starting transformation: calculating sales count by product.
+2024-12-01 16:49:01.607 | INFO     | scripts.step2_transform:calculate_sales_count:38 - Transformation completed successfully.
+2024-12-01 16:49:01.723 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:49:01.723 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:49:01.723 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:49:01.839 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv.
+2024-12-01 16:49:01.841 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.parquet.
+2024-12-01 16:49:01.844 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:49:01.888 | INFO     | scripts.step4_visualize:visualize_sales_count:32 - Loading data from CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv
+2024-12-01 16:49:01.891 | INFO     | scripts.step4_visualize:visualize_sales_count:46 - Creating bar plot for sales count by product.
+2024-12-01 16:49:01.990 | INFO     | scripts.step4_visualize:visualize_sales_count:68 - Visualization saved to: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count_visualization.png
+2024-12-01 16:49:02.110 | INFO     | scripts.step2_transform:cube_sales_by_date_and_store:73 - Cubing sales data by Year, Month, DayOfWeek, and StoreID.
+2024-12-01 16:49:02.125 | INFO     | scripts.step2_transform:cube_sales_by_date_and_store:85 - Cubing completed successfully.
+2024-12-01 16:49:02.125 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:49:02.125 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:49:02.125 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:49:02.223 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales.csv.
+2024-12-01 16:49:02.223 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales.parquet.
+2024-12-01 16:49:02.223 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:49:02.223 | INFO     | scripts.step4_visualize:visualize_cubed_sales_stacked:78 - Reading cubed sales data from c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales.csv.
+2024-12-01 16:52:24.584 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:52:24.654 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:52:24.654 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:52:24.654 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:52:24.720 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:52:24.721 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:52:24.802 | INFO     | scripts.step2_transform:calculate_sales_count:28 - Starting transformation: calculating sales count by product.
+2024-12-01 16:52:24.818 | INFO     | scripts.step2_transform:calculate_sales_count:38 - Transformation completed successfully.
+2024-12-01 16:52:24.918 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:52:24.918 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:52:24.918 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:52:25.002 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv.
+2024-12-01 16:52:25.002 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.parquet.
+2024-12-01 16:52:25.002 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:52:25.037 | INFO     | scripts.step4_visualize:visualize_sales_count:32 - Loading data from CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv
+2024-12-01 16:52:25.037 | INFO     | scripts.step4_visualize:visualize_sales_count:46 - Creating bar plot for sales count by product.
+2024-12-01 16:52:25.151 | INFO     | scripts.step4_visualize:visualize_sales_count:68 - Visualization saved to: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count_visualization.png
+2024-12-01 16:52:25.255 | INFO     | scripts.step2_transform:cube_sales_by_date_and_store:73 - Cubing sales data by Year, Month, DayOfWeek, and StoreID.
+2024-12-01 16:52:25.271 | INFO     | scripts.step2_transform:cube_sales_by_date_and_store:85 - Cubing completed successfully.
+2024-12-01 16:52:25.271 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:52:25.271 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:52:25.271 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:52:25.387 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales_by_date_and_store.csv.
+2024-12-01 16:52:25.387 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales_by_date_and_store.parquet.
+2024-12-01 16:52:25.387 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:52:25.387 | INFO     | scripts.step4_visualize:visualize_cubed_sales_stacked:78 - Reading cubed sales data from c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales_by_date_and_store.csv.
+2024-12-01 16:53:46.232 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:53:46.286 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\products_data_prepared.csv
+2024-12-01 16:53:46.286 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:53:46.286 | INFO     | scripts.step1_extract:read_csv:29 - Attempting to read CSV file from: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:53:46.336 | INFO     | scripts.step1_extract:read_csv:32 - Successfully read CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\prepared\sales_data_prepared.csv
+2024-12-01 16:53:46.336 | INFO     | scripts.step1_extract:read_csv:33 - Schema of DataFrame:
+None
+2024-12-01 16:53:46.419 | INFO     | scripts.step2_transform:calculate_sales_count:28 - Starting transformation: calculating sales count by product.
+2024-12-01 16:53:46.440 | INFO     | scripts.step2_transform:calculate_sales_count:38 - Transformation completed successfully.
+2024-12-01 16:53:46.536 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:53:46.536 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:53:46.536 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:53:46.626 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv.
+2024-12-01 16:53:46.626 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.parquet.
+2024-12-01 16:53:46.628 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:53:46.667 | INFO     | scripts.step4_visualize:visualize_sales_count:32 - Loading data from CSV file: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count.csv
+2024-12-01 16:53:46.670 | INFO     | scripts.step4_visualize:visualize_sales_count:46 - Creating bar plot for sales count by product.
+2024-12-01 16:53:46.770 | INFO     | scripts.step4_visualize:visualize_sales_count:68 - Visualization saved to: c:\Users\edaci\Documents\smart-sales-spark\data\output\sales_count_visualization.png
+2024-12-01 16:53:46.889 | INFO     | scripts.step2_transform:cube_sales_by_date_and_store:73 - Cubing sales data by Year, Month, DayOfWeek, and StoreID.
+2024-12-01 16:53:46.904 | INFO     | scripts.step2_transform:cube_sales_by_date_and_store:85 - Cubing completed successfully.
+2024-12-01 16:53:46.904 | INFO     | scripts.step3_load:save_to_csv_and_parquet:26 - Starting the save operation for CSV and Parquet files.
+2024-12-01 16:53:46.904 | INFO     | scripts.step3_load:save_to_csv_and_parquet:30 - Output directory created: c:\Users\edaci\Documents\smart-sales-spark\data\output
+2024-12-01 16:53:46.904 | INFO     | scripts.step3_load:save_to_csv_and_parquet:33 - Converting Spark DataFrame to Pandas DataFrame.
+2024-12-01 16:53:46.988 | INFO     | scripts.step3_load:save_to_csv_and_parquet:38 - Saving DataFrame to CSV at c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales_by_date_and_store.csv.
+2024-12-01 16:53:46.988 | INFO     | scripts.step3_load:save_to_csv_and_parquet:43 - Saving DataFrame to Parquet at c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales_by_date_and_store.parquet.
+2024-12-01 16:53:46.988 | INFO     | scripts.step3_load:save_to_csv_and_parquet:46 - Save operation completed successfully.
+2024-12-01 16:53:46.988 | INFO     | scripts.step4_visualize:visualize_cubed_sales_stacked:78 - Reading cubed sales data from c:\Users\edaci\Documents\smart-sales-spark\data\output\cubed_sales_by_date_and_store.csv.
