@@ -17,9 +17,7 @@ spark-smart-sales-insights/
 │   ├── step3-load.py                   # Load stage: Save results to storage
 │   └── step4-visualize.py              # Visualize results using seaborn or matplotlib
 ├── notebooks/
-│   ├── insights.ipynb        # Notebook orchestrating extract-transform-load (ETL) + visualization
-│   ├── exploratory_analysis.ipynb  # Exploratory data analysis (EDA)
-│   └── pipeline_demo.ipynb         # End-to-end pipeline demonstration
+│   ├── insights.ipynb             # Notebook orchestrating extract-transform-load (ETL) + visualization
 ├── tests/
 │   ├── test_extract.py             # Unit tests for extract functionality
 │   ├── test_transform.py           # Unit tests for transformations

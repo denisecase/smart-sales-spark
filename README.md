@@ -29,6 +29,17 @@ Visit the [Apache Spark Examples Page](https://spark.apache.org/examples.html) t
 - RDD Example - ntroduces RDDs for processing unstructured data.
 - Streaming Example - shows how to handle real-time data-in-motion with structured streaming.
 
+## Spark Pipeline Project Examples
+
+Explore how different Spark-based projects might be structured by checking the docs folder. 
+Each project demonstrates the use of a scalable pipeline architecture tailored to a specific domain.
+
+- [Spark Sales Project](docs/spark-sales.md) - analyzes customer, product, and sales data to generate insights like sales trends and product performance.
+  
+- [Spark Social Media Project](docs/spark-social.md) - processes social media data to uncover user engagement patterns, hashtag trends, and sentiment analysis.
+- 
+- [Spark Internet of Things (IOT) Project](docs/spark-iot.md) - aggregates and visualizes IoT sensor data to detect anomalies, monitor device usage, and analyze trends.
+
 ## FIRST: Set Up Your Machine
 
 Follow the instructions to set up your system first:
@@ -49,8 +60,13 @@ project/
 │   ├── products_data_prepared.csv
 │   ├── sales_data_prepared.csv
 ├── scripts/
-│   ├── spark_basic.py
-│   ├── spark_sales_yourname.py
+│   ├── step0-pipeline.py           # Orchestrate the pipeline
+│   ├── step1-extract.py            # Extract stage: Read data from sources
+│   ├── step2-transform.py          # Transform stage: Process data for insights
+│   ├── step3-load.py               # Load stage: Save results to storage
+│   └── step4-visualize.py          # Visualize results using seaborn or matplotlib
+├── notebooks/
+│   ├── insights.ipynb             # Notebook orchestrating extract-transform-load (ETL) + visualization
 ├── .gitignore
 ├── README.md
 └── requirements.txt
@@ -64,10 +80,10 @@ Follow the instructions to manage your local virtual environment:
 
 We keep our Python scripts in the scripts folder.
 
-Create a new file scripts/spark_basic.py in your scripts folder. 
+Create new files with these names in your scripts folder. 
 Paste the contents from the file provided in this repo.
 
-### Windows 
+### On Windows Machine
 
 1. In VS Code, open a PowerShell terminal in the root project folder. 
 
@@ -79,10 +95,10 @@ Paste the contents from the file provided in this repo.
 
 Protip: After running the command once, you can usually get it back by typing just the initial dot and then hitting the right arrow key  - or use the up arrow to access prior commands. 
 
-3. Execute the script
+1. Execute the script.
 
 ```shell
-py scripts\spark_basic.py
+py scripts\step0_pipeline.py
 ```
 
 Protip: After running the command once, you can usually get it back by typing just the initial py and then hitting the right arrow key - or use the up arrow to access prior commands. 
@@ -90,7 +106,7 @@ Protip: After running the command once, you can usually get it back by typing ju
 If you get a Windows Firewall alert regarding the JDK, click Allow. 
 
 
-### Mac/LInux 
+### On Mac/LInux Machine
 
 1. In VS Code, open a terminal in the root project folder. 
 
@@ -104,31 +120,19 @@ source .venv/bin/activate
 3. Execute the script
 
 ```zsh
-python3 scripts/spark_basic.py
+python3 scripts/step0_pipeline.py
 ```
 
-## FOURTH: Run PySpark Project Script
+## FOURTH: ENHANCE FUNCTIONALITY
 
-Create a new file scripts/spark_sales_yourname.py in your scripts folder. 
-Change yourname to reflect your unique name or brand.
+Add or update the files to make your own functionality. 
 
 Paste the contents from the file provided in this repo.
 
-Execute the script to get started.Choose the appropriate command. 
-
-```shell
-py scripts/spark_sales_yourname.py
-python3 scripts/spark_sales_yourname.py
-```
-
-## Adjust for Project Objectives
-
-After running both provided scripts successfully, modify the the spark sales script to reflect your unique project objectives. 
+Execute your scripts - or experiment with a Jupyter notebook. 
 
 
 ## Troubleshooting
-
-
 
 ```powershell
 $Env:HADOOP_HOME
