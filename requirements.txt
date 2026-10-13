@@ -79,5 +79,5 @@ seaborn
 plotly
 
 # Work with Apache Spark for big data
-pyspark==3.5.3
+pyspark==3.5.8
 pyspark[sql]
